@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма</title>
+  </head>
+  <body>
+    <div id="mainInfo">
+      <h1>Проектування та розробка веб-застосунків</h1>
+      <h2>Лабораторна робота №1</h2>
+      <h2>Виконав студент групи Кн-32 Білак Любомир</h2>
+      <h2>Варіант 2</h2>
+      <a href="/index.html">На головну</a>
+    </div>
+
+    <div style="margin-top: 4%">
+      Необхідно розробити форму для реєстрації студента у веб-системі. Необхідно
+      заповнити наступні данні: основні дані про студента, включають ПІБ, назву
+      групи (вибирається із списку), форму навчання(бюджет або контакт)
+      реалізується у вигляді перемикача, коротку інформацію про студента,
+      електрона адреса студента;
+    </div>
+
+    <form action="" method="post" style="margin-top: 4%; width: 40%">
+      <fieldset>
+        <legend>Форма реаєстрації</legend>
+        <div>
+          <label>
+            ПІБ
+            <input id="pib" type="text" />
+          </label>
+          <label style="margin-left: 5%">
+            Назва групи
+            <select>
+              <option>Кн-11</option>
+              <option>Кн-12</option>
+              <option>Кн-21</option>
+              <option>Кн-22</option>
+              <option>Кн-31</option>
+              <option>Кн-32</option>
+            </select>
+          </label>
+          <label style="margin-left: 5%">
+            Бюджет
+            <input type="radio" name="test" checked value="1" />
+            <input type="radio" name="test" value="2" />
+            Контакт
+          </label>
+        </div>
+        <div style="margin-top: 3%">
+          <label
+            >Інформація про студента
+            <textarea name="info" cols="100" rows="8"></textarea>
+          </label>
+        </div>
+        <div style="margin-top: 3%">
+          <label>
+            Email студента
+            <input type="text" />
+          </label>
+        </div>
+        <div style="margin-top: 3%">
+          <button>Відправити форму</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
