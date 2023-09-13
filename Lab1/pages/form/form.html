@@ -22,8 +22,13 @@
       електрона адреса студента;
     </div>
 
-    <form action="" method="post" style="margin-top: 4%; width: 40%">
-      <fieldset>
+    <form
+      style="display: flex; margin-top: 1%"
+      action=""
+      method="post"
+      style="margin-top: 4%; width: 40%"
+    >
+      <fieldset style="width: 800px; flex: 1; margin-right: 5px">
         <legend>Форма реаєстрації</legend>
         <div>
           <label>
@@ -60,8 +65,38 @@
             <input type="text" />
           </label>
         </div>
+      </fieldset>
+      <fieldset style="width: 800px">
+        <legend>Особиста інформація</legend>
+        <label>
+          Паспорт
+          <input id="passInfo" type="text" />
+        </label>
+        <div style="margin-top: 2%">
+          <label>
+            Індифікаційний код
+            <input
+              id="indCode"
+              type="number"
+              min="1000000000"
+              max="9999999999"
+            />
+          </label>
+        </div>
         <div style="margin-top: 3%">
-          <button>Відправити форму</button>
+          <label>
+            Дата народження
+            <input type="date" />
+          </label>
+          <label>
+            Чоловіча
+            <input type="radio" name="state" checked value="1" />
+            <input type="radio" name="state" value="2" />
+            Жіноча
+          </label>
+        </div>
+        <div style="margin-top: 2%; margin-left: 80%;">
+          <button style="flex: 2" type="submit">Відправити форми</button>
         </div>
       </fieldset>
     </form>
