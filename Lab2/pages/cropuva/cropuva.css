@@ -1,0 +1,29 @@
+@import "../../styles/main.css";
+
+body{
+    background-color: rgba(var(--white));
+    font-size: 20px;
+}
+
+.firstParagraph{
+    color: var(--darkGray);
+    font-style: italic;
+}
+
+.secondParagraph{
+    font-weight: bold;
+}
+
+.redColor{
+    color: var(--red);
+}
+
+.imgLeft{
+    float: left;
+    width: 15%;
+}
+
+.imgRight{
+    float: right;
+    width: 25%;
+}
