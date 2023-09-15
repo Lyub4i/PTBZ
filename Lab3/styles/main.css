@@ -1,0 +1,10 @@
+@import "../../styles/variables.css";
+
+body {
+  background-color: var(--darkGray);
+  color: var(--lightGreen);
+}
+
+a {
+  color: var(--lightGreen);
+}
