@@ -1,0 +1,41 @@
+@import "../../styles/main.css";
+
+.mainHeader {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  color: var(--black);
+}
+
+span {
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.labelBlock {
+  padding-left: 85px;
+}
+
+.label {
+  width: 236px;
+  height: 85px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 184px;
+}
+
+.menuElement {
+  padding-top: 36px;
+  padding-right: 59px;
+}
