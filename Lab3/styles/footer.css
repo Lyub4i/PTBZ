@@ -14,7 +14,11 @@
 .icon {
 }
 
-.mainText {
+.footerNaming{
+  padding-left: 100px;
+}
+
+.mainFooterText {
   color: var(--white);
   font-family: Inter;
   font-size: 36px;

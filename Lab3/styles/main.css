@@ -1,6 +1,7 @@
-@import "../../styles/variables.css";
+@import "../styles/variables.css";
 
 body {
   margin: 0;
+  font-family: "MetronicPro";
   background-color: var(--white);
 }

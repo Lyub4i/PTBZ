@@ -1,0 +1,48 @@
+@import "../styles/main.css";
+
+.dopInfo {
+  position: fixed;
+  margin-top: 100px;
+  top: 1%;
+  right: 0;
+  width: 442px;
+  max-height: 100%;
+  overflow-y: auto;
+
+  .titleText {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .mainDopText {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .sentence {
+    display: flex;
+    font-size: 15px;
+
+    .avatar {
+      height: 90px;
+      border-radius: 70px;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchButton {
+    width: 333px;
+    height: 82px;
+    background-color: yellow;
+    border-radius: 49px;
+    margin-top: 5px;
+  }
+}

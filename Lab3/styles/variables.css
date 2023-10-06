@@ -6,3 +6,12 @@
   --black: #0c0c0c;
   --darkBlue: #001134;
 }
+
+@font-face {
+  font-family: "MetronicPro";
+  src: url("../assets/fonts/MetronicPro/MetronicPro.eot");
+  src: url("../assets/fonts/MetronicPro/MetronicPro.eot") format('embedded-opentype'),
+  url("../assets/fonts/MetronicPro/MetronicPro..woff2") format("woff2"),
+  url("../assets/fonts/MetronicPro/MetronicPro.woff") format("woff"),
+  url("../assets/fonts/MetronicPro/MetronicPro.ttf") format("truetype");
+}
