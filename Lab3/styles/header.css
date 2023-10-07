@@ -8,6 +8,7 @@
   height: 100px;
   display: flex;
   color: var(--black);
+  background-color: var(--white);
 }
 
 span {
@@ -28,14 +29,6 @@ span {
 .menu {
   display: flex;
   padding-left: 184px;
-}
-
-.menuElement {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  padding-top: 36px;
-  padding-right: 59px;
 }
 
 .menuElement :hover {

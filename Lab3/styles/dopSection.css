@@ -1,6 +1,7 @@
 @import "../styles/main.css";
 
 .dopInfo {
+  background-color: var(--white);
   position: fixed;
   margin-top: 100px;
   top: 1%;
