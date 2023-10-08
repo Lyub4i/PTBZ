@@ -3,6 +3,7 @@
 .mainFooter {
   background-color: var(--darkBlue);
   height: 100px;
+  width: 1050px;
   display: flex;
   align-items: center;
 }

@@ -2,13 +2,14 @@
 
 .dopInfo {
   background-color: var(--white);
-  position: fixed;
-  margin-top: 100px;
+  position:fixed;
+  margin-top:108px;
   top: 1%;
   right: 0;
   width: 442px;
   max-height: 100%;
   overflow-y: auto;
+  border-left: 5px solid black;
 
   .titleText {
     text-align: center;

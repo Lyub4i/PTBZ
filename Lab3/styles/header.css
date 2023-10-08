@@ -9,6 +9,7 @@
   display: flex;
   color: var(--black);
   background-color: var(--white);
+  border-bottom: 5px solid black;
 }
 
 span {

@@ -178,6 +178,10 @@ a {
   padding-right: 59px;
 }
 
+.menuElement a {
+  scroll-behavior: smooth;
+}
+
 .menuElement.active {
   color: blue;
   text-decoration: underline;
