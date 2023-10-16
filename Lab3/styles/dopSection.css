@@ -43,7 +43,10 @@
   .searchButton {
     width: 333px;
     height: 82px;
-    background-color: yellow;
+    background-color: #FFB800;
+    border-width: 0;
+    font-size: 36px;
+    font-weight: bold;
     border-radius: 49px;
     margin-top: 5px;
   }

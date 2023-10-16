@@ -1,0 +1,72 @@
+@import "../settings.css";
+@import "../buttons.css";
+
+.headMenu {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 117px;
+  margin-right: 117px;
+
+  .blueCircleElement {
+    width: 26px;
+    height: 26px;
+    max-width: 100%;
+    background-color: var(--soft-blue);
+    border-radius: 50px;
+  }
+
+  .mainMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26px;
+
+    .menuElement {
+      margin-left: 42px;
+    }
+  }
+
+  .shareContainer {
+    display: flex;
+    margin-left: 150px;
+
+    .socialMediaIcons {
+      margin-top: 15px;
+      margin-right: 15px;
+    }
+  }
+
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropup-content a:hover {
+    background-color: #ccc;
+  }
+
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    top: 50px;
+    z-index: 2;
+  }
+}
