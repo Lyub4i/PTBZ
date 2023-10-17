@@ -1,0 +1,16 @@
+@import "../settings.css";
+
+.customers {
+    height: 145px;
+    margin-left: 276px;
+    margin-right: 276px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+
+    .customerElement{
+        margin-right: 76.5px;
+    }
+}
