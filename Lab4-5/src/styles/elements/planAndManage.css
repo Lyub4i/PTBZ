@@ -1,0 +1,108 @@
+@import "../settings.css";
+
+.planAndManage {
+  background-color: var(--light-blue3);
+  height: 776px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .textCta {
+    width: 413px;
+    height: 352px;
+    margin-left: 271px;
+    margin-right: 90px;
+    margin-top: 208px;
+
+    .firstText {
+      font-size: 10px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: var(--blue-Text);
+    }
+
+    .secondText {
+      color: var(--blue-Text);
+      font-size: 36px;
+      font-weight: 500;
+    }
+
+    .thiedText {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      color: #8d96bd;
+    }
+  }
+
+  .illustrations {
+    width: 653px;
+    height: 436px;
+    margin-top: 170px;
+    position: relative;
+
+    .phone {
+      width: 107px;
+      height: 214px;
+      border-radius: 15px;
+      background-color: var(--white);
+      position: relative;
+      bottom: 250px;
+      right: 80px;
+      box-shadow: 0px 20px 40px 0px rgba(53, 60, 115, 0.15);
+
+      .phoneImg {
+        margin-top: 11px;
+        margin-bottom: 11px;
+        margin-left: 0.01px;
+        margin-right: 0.01px;
+      }
+    }
+
+    .laptop {
+      width: 540px;
+      height: 337px;
+      background-color: var(--white);
+      align-items: center;
+      filter: drop-shadow(0px 20px 40px rgba(53, 60, 115, 0.15));
+
+      .laptoppImg {
+        margin-left: 16px;
+        margin-top: 13px;
+        margin-right: 16px;
+        margin-bottom: 8px;
+      }
+    }
+
+    .laptopKeyBoard {
+      width: 606px;
+      height: 20px;
+      background-color: var(--white);
+      position: relative;
+      right: 25px;
+
+      filter: drop-shadow(0px 20px 40px rgba(159, 162, 195, 0.15))
+        drop-shadow(0px 50px 200px rgba(53, 60, 115, 0.05))
+        drop-shadow(0px 50px 150px rgba(104, 113, 198, 0.05))
+        drop-shadow(0px 50px 50px rgba(107, 119, 224, 0.05));
+    }
+
+    .tablet {
+      width: 148px;
+      height: 280px;
+      border-radius: 15px;
+      background-color: var(--white);
+      position: relative;
+      bottom: 410px;
+      left: 360px;
+      box-shadow: 0px 20px 40px 0px rgba(53, 60, 115, 0.15);
+
+      .tabletImg {
+        margin-top: 9px;
+        margin-bottom: 15px;
+        margin-left: 1px;
+        margin-right: 4px;
+      }
+    }
+  }
+}

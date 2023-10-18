@@ -1,4 +1,11 @@
 @import "./elements/header.css";
 @import "./elements/heroImage.css";
-@import "./elements//customers.css";
+@import "./elements/customers.css";
+@import "./elements/planAndManage.css";
 @import "./media.css";
+
+.blueLine {
+  width: 100%;
+  height: 1px;
+  background-color: var(--light-blue);
+}
