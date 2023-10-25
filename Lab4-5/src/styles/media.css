@@ -2,11 +2,17 @@
 
 @media (max-width: 1165px) {
   .headMenu {
-    margin-left: 10px;
-    margin-right: 10px;
+    .blueCircleElement {
+      margin-left: 10px;
+      width: 26px;
+      height: 26px;
+      background-color: var(--soft-blue);
+      border-radius: 50px;
+    }
 
     .shareContainer {
       margin-left: 100px;
+      margin-right: 10px;
 
       .socialMediaIcons {
         margin-right: 15px;
@@ -40,6 +46,9 @@
       margin-left: 200px;
     }
   }
+
+  .heroImageBlock{
+  }
 }
 
 @media (max-width: 903px) {
@@ -58,18 +67,36 @@
       display: none;
     }
 
-    .socialMediaIcons {
-      margin-left: 180px;
-      margin-right: 10px;
+    .shareContainer {
+      .socialMediaIcons {
+        margin-left: 180px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .planAndManage {
+    .illustrations {
+      margin-left: 100px;
     }
   }
 }
 
 @media (max-width: 765px) {
+  .headMenu {
+    .shareContainer {
+      margin: 0;
+
+      .socialMediaIcons {
+        display: none;
+      }
+    }
+  }
+
   .customers {
-    width: 100%;
-    margin-top: 28px;
-    margin-bottom: 58px;
+    margin-top: 90px;
+    margin-right: 0;
+    margin-bottom: 120px;
     flex-direction: column;
 
     .customerElement {
@@ -78,7 +105,18 @@
     }
 
     .audiElement {
+      margin: 0;
       margin-top: 25px;
+    }
+  }
+
+  .planAndManage {
+    height: auto;
+    width: auto;
+
+    .illustrations {
+      width: 0px;
+      display: none;
     }
   }
 }

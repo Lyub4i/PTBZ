@@ -1,17 +1,17 @@
 @import "../settings.css";
 
 .customers {
-    height: 145px;
-    margin-left: 276px;
-    margin-right: 276px;
-    margin-top: 58px;
-    margin-bottom: 58px;
-    background-color: var(--white);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 145px;
+  width: 100%;
+  margin-top: 58px;
+  margin-bottom: 58px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 
-    .customerElement{
-        margin-right: 76.5px;
-    }
+  a:hover {
+    background-color: #5982e7;
+  }
 }
