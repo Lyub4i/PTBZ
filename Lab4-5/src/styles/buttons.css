@@ -1,21 +1,38 @@
 @import "./settings.css";
 
 .menuButton {
-    padding: 0;
-    width: 113px;
-    height: 43px;
-    text-align: center;
-    background-color: var(--light-blue2);
-    color: var(--blue);
-    border-radius: 2px;
-    border-width: 0px;
+  padding: 0;
+  width: 113px;
+  height: 43px;
+  text-align: center;
+  background-color: var(--light-blue2);
+  color: var(--blue);
+  border-radius: 2px;
+  border-width: 0px;
 }
 
 .dropbtn {
-    background-color: var(--soft-blue);
-    color: var(--white);
-    padding: 16px;
-    font-size: 16px;
-    border-radius: 20px;
-    border-width: 0;
+  background-color: var(--soft-blue);
+  color: var(--white);
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 20px;
+  border-width: 0;
+}
+
+.featureButton {
+  border: 0;
+  width: 113px;
+  height: 43px;
+  background-color: #ffd7d7;
+  color: #d43f3f;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.featureButton2 {
+  background-color: #d2e1ff;
+  color: #3a79ff;
 }

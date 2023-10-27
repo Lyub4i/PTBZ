@@ -1,0 +1,36 @@
+@import "../settings.css";
+
+.stats {
+  display: flex;
+  width: 100%;
+  height: 343px;
+
+  .stats_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stats_blockL {
+    align-items: flex-end;
+    background-color: var(--blue);
+    color: var(--white);
+
+    .info {
+      text-align: end;
+      margin-top: 66px;
+      margin-right: 90px;
+    }
+  }
+
+  .stats_blockR {
+    background-color: var(--light-blue);
+    color: var(--soft-blue);
+
+    .info {
+      text-align: start;
+      margin-top: 66px;
+      margin-left: 90px;
+    }
+  }
+}

@@ -47,7 +47,7 @@
     }
   }
 
-  .heroImageBlock{
+  .heroImageBlock {
   }
 }
 
@@ -93,6 +93,11 @@
     }
   }
 
+  .heroImageBlock {
+    background-image: none;
+    background-color: var(--light-blue3);
+  }
+
   .customers {
     margin-top: 90px;
     margin-right: 0;
@@ -112,11 +117,89 @@
 
   .planAndManage {
     height: auto;
-    width: auto;
+    width: 100%;
+    text-align: center;
+
+    .textCta {
+      width: 100%;
+    }
 
     .illustrations {
       width: 0px;
       display: none;
+    }
+  }
+
+  .featuresBlock {
+    background-image: none;
+    background-color: var(--white);
+    height: 100%;
+
+    .mainText {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .featureInsideBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+
+      .icons {
+        align-items: center;
+        flex-direction: column;
+
+        .block{
+          margin-top: 20px;
+          margin-right: 0;
+        }
+      }
+
+      .block_buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 92px;
+        margin-bottom: 40px;
+
+        .or_block {
+          margin-top: 27px;
+          margin-bottom: 27px;
+        }
+      }
+    }
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+
+    .stats_blockL {
+      align-items: center;
+
+      .info {
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .stats_blockR {
+      align-items: center;
+
+      .info {
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
     }
   }
 }

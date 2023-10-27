@@ -1,0 +1,69 @@
+@import "../settings.css";
+
+.featuresBlock {
+  background-image: url("../../img/features.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 885px;
+  width: 100%;
+  max-width: 100%;
+
+  .mainText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 171px;
+
+    .maintText_p {
+      font-size: 10px;
+    }
+
+    .maintText_h1 {
+      font-size: 24px;
+    }
+  }
+
+  .featureInsideBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      .block {
+        text-align: center;
+        width: 140px;
+        margin-right: 67px;
+
+        .block_h1 {
+          font-size: 14px;
+          margin-top: 33px;
+        }
+
+        .block_p {
+          font-size: 11px;
+          margin-top: 25px;
+        }
+      }
+    }
+
+    .block_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 92px;
+      margin-bottom: 171px;
+
+      .or_block{
+        margin-left: 47px;
+        margin-right: 47px;
+      }
+    }
+  }
+}

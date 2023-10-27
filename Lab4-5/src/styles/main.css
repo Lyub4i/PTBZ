@@ -2,6 +2,9 @@
 @import "./elements/heroImage.css";
 @import "./elements/customers.css";
 @import "./elements/planAndManage.css";
+@import "./elements/features.css";
+@import "./elements/stats.css";
+@import "./elements/blog.css";
 @import "./media.css";
 
 .blueLine {
