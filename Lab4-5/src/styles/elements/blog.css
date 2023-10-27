@@ -26,9 +26,29 @@
   .mainWindow {
     width: 1108px;
     height: 495px;
+    display: flex;
+    justify-content: center;
 
     .window {
+      width: 958px;
+      height: 394px;
       border: 1px solid var(--light-blue);
+      display: flex;
+
+      .window_photo {
+        display: flex;
+      }
+
+      .window_text {
+      }
+    }
+
+    .vector1 {
+      margin-right: 75px;
+    }
+
+    .vector2 {
+      margin-left: 75px;
     }
   }
 }
