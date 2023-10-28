@@ -24,7 +24,7 @@
   }
 
   .mainWindow {
-    width: 1108px;
+    width: auto;
     height: 495px;
     display: flex;
     justify-content: center;
@@ -37,9 +37,31 @@
 
       .window_photo {
         display: flex;
+        margin-left: 35px;
+        margin-top: 64px;
+        margin-bottom: 63px;
+
+        .mainPhoto{
+          width: 267px;
+        }
+
+        .secondPhotots {
+          display: flex;
+          flex-direction: column;
+          width: 127px;
+          margin-left: 13px;
+        }
       }
 
       .window_text {
+        margin-right: 41px;
+        margin-left: 67px;
+        margin-top: 63px;
+
+        .window_buttons{
+          display: flex;
+          margin-top: 31px;
+        }
       }
     }
 
@@ -50,5 +72,9 @@
     .vector2 {
       margin-left: 75px;
     }
+  }
+
+  .blueCircles{
+    
   }
 }

@@ -47,7 +47,17 @@
     }
   }
 
-  .heroImageBlock {
+  .blog {
+    .mainWindow {
+      margin: 0;
+      .vector1 {
+        display: none;
+      }
+
+      .vector2 {
+        display: none;
+      }
+    }
   }
 }
 
@@ -78,6 +88,53 @@
   .planAndManage {
     .illustrations {
       margin-left: 100px;
+    }
+  }
+
+  .blog {
+    width: 100%;
+    height: 865px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .mainText {
+      margin-top: 104px;
+      margin-bottom: 92px;
+      text-align: center;
+      color: var(--blue-Text);
+      .mainText_p {
+        font-size: 10px;
+      }
+  
+      .mainText_h1 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+  
+    .mainWindow {
+      width: auto;
+      height: 495px;
+      justify-content: center;
+  
+      .window {
+        width: auto;
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+  
+        .window_photo {  
+          .mainPhoto{
+            width: 267px;
+          }
+        }
+      }
+    }
+
+    .blueCircles{
+      display: none;
     }
   }
 }
@@ -154,7 +211,7 @@
         align-items: center;
         flex-direction: column;
 
-        .block{
+        .block {
           margin-top: 20px;
           margin-right: 0;
         }
@@ -200,6 +257,50 @@
         margin-top: 20px;
         margin-bottom: 20px;
       }
+    }
+  }
+
+  .blog {
+    width: 100%;
+    height: 865px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .mainText {
+      margin-top: 204px;
+      margin-bottom: 52px;
+      color: var(--blue-Text);
+    }
+  
+    .mainWindow {
+      width: auto;
+      height: 495px;
+      justify-content: center;
+  
+      .window {
+        width: auto;
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+  
+        .window_photo {  
+          display: flex;
+          flex-direction: column;
+          .mainPhoto{
+            width: 267px;
+          }
+
+          .secondPhotots {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .blueCircles{
+      display: none;
     }
   }
 }
