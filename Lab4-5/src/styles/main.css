@@ -5,6 +5,7 @@
 @import "./elements/features.css";
 @import "./elements/stats.css";
 @import "./elements/blog.css";
+@import "./elements/quotes.css";
 @import "./media.css";
 
 .blueLine {
