@@ -14,11 +14,17 @@
     text-align: center;
     color: var(--blue-Text);
     .mainText_p {
+      color: #3d4f9f;
       font-size: 10px;
+      font-style: normal;
+      font-weight: bold;
     }
 
     .mainText_h1 {
+      color: #3d4f9f;
+      text-align: center;
       font-size: 24px;
+      font-style: normal;
       font-weight: bold;
     }
   }
@@ -41,7 +47,7 @@
         margin-top: 64px;
         margin-bottom: 63px;
 
-        .mainPhoto{
+        .mainPhoto {
           width: 267px;
         }
 
@@ -58,7 +64,7 @@
         margin-left: 67px;
         margin-top: 63px;
 
-        .window_buttons{
+        .window_buttons {
           display: flex;
           margin-top: 31px;
         }
@@ -74,7 +80,6 @@
     }
   }
 
-  .blueCircles{
-    
+  .blueCircles {
   }
 }

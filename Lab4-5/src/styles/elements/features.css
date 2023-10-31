@@ -20,11 +20,19 @@
     margin-top: 171px;
 
     .maintText_p {
+      color: #3d4f9f;
       font-size: 10px;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
 
     .maintText_h1 {
+      color: #3d4f9f;
+      text-align: center;
       font-size: 24px;
+      font-style: normal;
+      font-weight: bold;
     }
   }
 
@@ -42,12 +50,21 @@
         margin-right: 67px;
 
         .block_h1 {
+          color: #4074f8;
+          text-align: center;
           font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
           margin-top: 33px;
         }
 
         .block_p {
+          color: #adb3cb;
+          text-align: center;
           font-size: 11px;
+          font-style: normal;
+          font-weight: 600;
+          font-style: normal;
           margin-top: 25px;
         }
       }
@@ -60,7 +77,12 @@
       margin-top: 92px;
       margin-bottom: 171px;
 
-      .or_block{
+      .or_block {
+        color: #adb3cb;
+        text-align: center;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
         margin-left: 47px;
         margin-right: 47px;
       }

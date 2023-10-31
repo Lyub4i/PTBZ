@@ -6,6 +6,9 @@
 @import "./elements/stats.css";
 @import "./elements/blog.css";
 @import "./elements/quotes.css";
+@import "./elements/getStarted.css";
+@import "./elements/newsLetter.css";
+@import "./elements/mainFooter.css";
 @import "./media.css";
 
 .blueLine {

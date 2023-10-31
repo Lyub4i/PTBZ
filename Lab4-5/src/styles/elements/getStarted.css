@@ -1,0 +1,15 @@
+@import "../settings.css";
+
+.getStarted{
+    background-image: url("../../img/getStarted/get\ started.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 447px;
+    width: 100%;
+    max-width: 100%;
+}

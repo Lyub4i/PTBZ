@@ -1,0 +1,37 @@
+@import "../settings.css";
+
+.newsLetter {
+  background-color: var(--white);
+  height: 332px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .newsLetter_block1 {
+    width: 686px;
+    margin-left: 276px;
+  }
+
+  .newsLetter_block2 {
+    display: flex;
+    margin-right: 276px;
+    .inputBlock {
+      width: 279px;
+      height: 59px;
+      margin-left: 80px;
+      border-radius: 5px;
+      background: #efeff7;
+      border: 1px #efeff7 solid;
+      border-color: #efeff7;
+    }
+
+    .btnBlock {
+      width: 184px;
+      height: 59px;
+      margin-left: 14px;
+      border-radius: 5px;
+      background: #4d6ce1;
+    }
+  }
+}

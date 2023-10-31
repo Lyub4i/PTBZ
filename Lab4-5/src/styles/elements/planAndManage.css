@@ -25,6 +25,9 @@
       color: var(--blue-Text);
       font-size: 36px;
       font-weight: 500;
+      color: #3d4f9f;
+      font-style: normal;
+      font-weight: 500;
     }
 
     .thiedText {
