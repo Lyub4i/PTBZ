@@ -1,17 +1,17 @@
 var lab1List = [
   {
     Place: "ACDC",
-    Laction: "Kyiv",
-    Data: "11.11.2023",
+    Location: "Kyiv",
+    Data: "07.11.2023",
   },
   {
     Place: "Rammstein",
-    Laction: "Lviv",
+    Location: "Lviv",
     Data: "12.12.2023",
   },
   {
     Place: "Metallica",
-    Laction: "",
+    Location: "",
     Data: "01.11.2023",
   },
 ];
@@ -25,35 +25,49 @@ function ras_diff_Days(text) {
 }
 
 function vivod(item, i, array) {
-  var text = item["Data"];
-  var diffDays = ras_diff_Days(text);
-  if (diffDays > 5) {
-    html = html + "<tr style='background: green;'>";
-    diffDays = "Встигни придбати";
-  } else if (diffDays == 0) {
-    html = html + "<tr style='background:blue;'>";
-    diffDays = "Концерт сьогодні";
-  } else {
-    if (diffDays < 5) {
-      html = html + "<tr style='background:red;'>";
-      diffDays = "Термін закінчено";
+  html = html + "<tr>";
+  for (var key in item) {
+    switch (key) {
+      case "Data":
+        var text = item[key];
+        var diffDays = ras_diff_Days(text);
+        if (diffDays > 5) {
+          diffDays = "Встигни придбати";
+        } else if (diffDays == 0) {
+          diffDays = "День концерту";
+        } else if (diffDays == 5) {
+          diffDays = "Останній день";
+        } else {
+          if (diffDays < 5) {
+            diffDays = "Термін закінчено";
+          }
+        }
+
+        html = html + "<td>" + text + "</td>";
+        html = html + "<td>" + diffDays + "</td>";
+        break;
+      case "Place":
+        html = html + "<td>" + item[key] + "</td>";
+        break;
+      case "Location":
+        if (item[key].length == 0) {
+          html = html + "<td>" + "Місце не вказано" + "</td>";
+          break;
+        }
+        html = html + "<td>" + item[key] + "</td>";
+        break;
     }
   }
-
-  for (var key in item) {
-    html = html + "<td>" + item[key] + "</td>";
-  }
-  html = html + "<td>" + diffDays + "</td>";
-  html = html + "</>";
+  html = html + "</tr>";
 }
 
 function ras() {
-  html = "<table style='b-table'>";
+  html = "<table style='border: 1px black solidl'>";
   html =
     html +
-    "<tr><td>Назва групи</td>" +
+    "<tr style='background: red;><td>Назва групи</td>" +
     " <td>Місце проведення</td>" +
-    "<td>Дата народження</td>" +
+    "<td>Дата проведення</td>" +
     "<td>Статус</td></tr>";
   lab1List.forEach(vivod);
   html = html + "</table>";
