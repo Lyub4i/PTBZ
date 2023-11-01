@@ -1,0 +1,19 @@
+@import "../../css/basic.css";
+
+.header_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  background-color: var(--white);
+  border-bottom: 2px black solid;
+
+  .header_block_mainTitle {
+  }
+}
+
+.task {
+}
