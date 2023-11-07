@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Список газет</title>
+    <link rel="stylesheet" href="./sr1.css" />
+    <script src="./sr1.js"></script>
+  </head>
+  <body>
+    <h1>Список газет</h1>
+    <button id="fetchButton" onclick="fetchData()">Зробити запит</button>
+
+    <div id="newspapers" class="pappersBlock">
+      <div style="display: flex; width: 100%; flex-direction: column">
+        <h2>Електронні газети</h2>
+        <div class="column" id="ebookColumn"></div>
+      </div>
+      <div style="display: flex; width: 100%; flex-direction: column">
+        <h2>Звичайні газети</h2>
+        <div class="column" id="nonEbookColumn"></div>
+      </div>
+    </div>
+  </body>
+</html>
