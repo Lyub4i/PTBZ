@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lab2/lab2.css" />
+    <script src="./lab2.js"></script>
+    <title>Lab2</title>
+  </head>
+  <body>
+    <div class="header_block">
+      <div class="header_block_mainTitle">
+        <h1>Лабораторна робота №2. JavaScript</h1>
+        <h3>Виконав студент групи КН-32 Білак Л. М.</h3>
+      </div>
+    </div>
+
+    <div class="task">
+      <h2>Завдання на лабораторну роботу:</h2>
+      <p style="font-size: 20px; font-weight: 500">
+        На Вашій сторінці є малюнок. При наведенні миші на цей малюнок він
+        повинен змінитися. <br />
+        Коли Ви відведете мишку в сторону, малюнок має набути початкового
+        вигляду.
+        <br />
+        Ввести № телефона (поле вводу) і назву міста (з клавіатури). Якщо
+        введено місто, якого немає в списку, то повідомити про це користувача,
+        інакше вивести № телефона, поставивши перед ним код міста..
+      </p>
+    </div>
+
+    <div>
+      <img
+        class="symbol"
+        src="../../img/fsharp.png"
+        onmouseover="changeImage()"
+        onmouseout="restoreImage()"
+      />
+    </div>
+
+    <input type="text" id="cityInput">
+    <button onclick="addCityNumber()">Check</button>
+    <div id="rezult"></div>
+  </body>
+</html>
