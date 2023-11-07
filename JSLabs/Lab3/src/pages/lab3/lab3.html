@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lab3/lab3.css" />
+    <script src="./lab3.js"></script>
+    <title>Lab3</title>
+  </head>
+  <body>
+    <div class="header_block">
+      <div class="header_block_mainTitle">
+        <h1>Лабораторна робота №3. JavaScript</h1>
+        <h3>Виконав студент групи КН-32 Білак Л. М.</h3>
+      </div>
+    </div>
+
+    <div class="task">
+      <h2>Завдання на лабораторну роботу:</h2>
+      <p style="font-size: 20px; font-weight: 500">
+        Завдання 1. У поле вводу вводиться країна і натискається Enter. При
+        натисканні на Enter зробіть так, щоб введені країни записувалися в абзац
+        під поле вводу через кому. Тобто по кожному натискання Enter в абзац
+        будуть додаватися все нові і нові країни.
+      </p>
+    </div>
+
+    <input type="text" id="countriField" onkeydown="addCountry(this)" />
+    <div id="countryRezult"></div>
+
+    <p style="font-size: 20px; font-weight: 500">
+      Завдання 2. Дана таблиця з числами. При натисканні на кнопку в поле
+      введення під таблицею відобразіть числа з таблиці. Виведення виконати
+      через кому в порядку зростання чисел.
+    </p>
+
+    <table>
+      <tr>
+        <td>5</td>
+        <td>3</td>
+        <td>8</td>
+        <td>1</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>2</td>
+        <td>6</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+    </table>
+
+    <input type="button" value="Показати числа" onclick="showNumbers()" />
+    <input type="text" id="output" readonly />
+  </body>
+</html>
