@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lab4/lab4.css" />
+    <script src="./lab4.js"></script>
+    <title>Lab4</title>
+  </head>
+  <body>
+    <div class="header_block">
+      <div class="header_block_mainTitle">
+        <h1>Лабораторна робота №4. JavaScript</h1>
+        <h3>Виконав студент групи КН-32 Білак Л. М.</h3>
+      </div>
+    </div>
+
+    <div class="task">
+      <h2>Завдання на лабораторну роботу:</h2>
+      <p style="font-size: 20px; font-weight: 500">
+        Завдання 1. Розробити сторінку зі скриптом, в якому створюється об'єкт
+        Холодильник з 4-ма властивостями: колір, марка, модель, ціна. Створити
+        масив з декількома об‘єктами даного класу. Вивести після натискання
+        кнопки всі значення властивостей на екран у вигляді таблиці.
+      </p>
+
+      <input
+        type="button"
+        value="Показати холодильники"
+        onclick="showRefrigerators()"
+      />
+      <table id="table">
+        <tr>
+          <th>Колір</th>
+          <th>Марка</th>
+          <th>Модель</th>
+          <th>Ціна</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
