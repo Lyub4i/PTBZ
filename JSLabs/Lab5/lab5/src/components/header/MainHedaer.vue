@@ -17,14 +17,5 @@
   }
   </script>
   
-  <style scoped>
-  
-  .header{
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    border-bottom: 1px black solid;
-  }
-
-  </style>
+  <style scoped src="../../components/header/MainHeader.css"></style>
   

@@ -1,0 +1,12 @@
+.content {
+    width: 100%;
+  }
+  
+  .inputElements {
+    display: flex;
+  }
+  
+  .inputBlock {
+    display: flex;
+    border: 1px black solid;
+  }

@@ -112,17 +112,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.content {
-  width: 100%;
-}
-
-.inputElements {
-  display: flex;
-}
-
-.inputBlock {
-  display: flex;
-  border: 1px black solid;
-}
-</style>
+<style scoped src="../../components/content/MainContent.css"></style>
